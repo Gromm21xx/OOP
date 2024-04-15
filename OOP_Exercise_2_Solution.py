@@ -1,3 +1,5 @@
+### Exercise 1
+
 import pandas as pd
 
 class Customer:
@@ -29,13 +31,7 @@ print(customer2.get_customer_info())
 print(customer3.get_customer_info())
 
 
-
-
-
-
-
-
-
+# Exercise 2
 
 class PreferredCustomer(Customer):
     def __init__(self, email, total_spent, membership_length):
